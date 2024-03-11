@@ -8,8 +8,7 @@ from multiprocessing import Process, Manager
 from matplotlib.animation import FuncAnimation
 from matplotlib.widgets import Button
 
-# Geen toolbar
-mpl.use('wxagg') 
+# Geen toolbar 
 mpl.rcParams['toolbar'] = 'None'
 
 # Lettertype inladen uit bestand (drie verschillende stijlen; overeenkomend met ontwerp)
